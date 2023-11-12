@@ -7,8 +7,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class viewport: UIViewController {
+    var dojacat:String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
 
