@@ -16,6 +16,7 @@
 		E436EF352B00B52E00B0DE36 /* gitTest002Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EF342B00B52E00B0DE36 /* gitTest002Tests.swift */; };
 		E436EF3F2B00B52E00B0DE36 /* gitTest002UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EF3E2B00B52E00B0DE36 /* gitTest002UITests.swift */; };
 		E436EF412B00B52E00B0DE36 /* gitTest002UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EF402B00B52E00B0DE36 /* gitTest002UITestsLaunchTests.swift */; };
+		E436EF4F2B00B5FA00B0DE36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E436EF4E2B00B5FA00B0DE36 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E436EF3A2B00B52E00B0DE36 /* gitTest002UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitTest002UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E436EF3E2B00B52E00B0DE36 /* gitTest002UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitTest002UITests.swift; sourceTree = "<group>"; };
 		E436EF402B00B52E00B0DE36 /* gitTest002UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitTest002UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E436EF4E2B00B5FA00B0DE36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		E436EF1C2B00B52C00B0DE36 /* gitTest002 */ = {
 			isa = PBXGroup;
 			children = (
+				E436EF4D2B00B5D300B0DE36 /* GitTest0201 */,
 				E436EF1D2B00B52C00B0DE36 /* AppDelegate.swift */,
 				E436EF1F2B00B52C00B0DE36 /* SceneDelegate.swift */,
 				E436EF212B00B52C00B0DE36 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				E436EF402B00B52E00B0DE36 /* gitTest002UITestsLaunchTests.swift */,
 			);
 			path = gitTest002UITests;
+			sourceTree = "<group>";
+		};
+		E436EF4D2B00B5D300B0DE36 /* GitTest0201 */ = {
+			isa = PBXGroup;
+			children = (
+				E436EF4E2B00B5FA00B0DE36 /* ViewController.swift */,
+			);
+			path = GitTest0201;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			files = (
 				E436EF222B00B52C00B0DE36 /* ViewController.swift in Sources */,
 				E436EF1E2B00B52C00B0DE36 /* AppDelegate.swift in Sources */,
+				E436EF4F2B00B5FA00B0DE36 /* ViewController.swift in Sources */,
 				E436EF202B00B52C00B0DE36 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
